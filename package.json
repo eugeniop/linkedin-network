@@ -1,0 +1,29 @@
+{
+  "name": "linkedin-users",
+  "version": "0.0.1",
+  "description": "LinkedIn Network Client",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --require should -t 3000"
+  },
+  "repository": { 
+    "type" : "git", 
+    "url" : "http://github.com/auth0/linkedin-network.git"
+  },
+  "keywords": [
+    "LinkedIn",
+    "network",
+    "users"
+  ],
+  "author": "Eugenio Pace <eugeniop@auth0.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.12.0",
+    "async": "~0.1.22",
+    "xtend": "~1.0.3"
+  },
+  "devDependencies": {
+    "should": "~1.2.1",
+    "mocha": "~1.7.4"
+  }
+}
